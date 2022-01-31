@@ -1,0 +1,49 @@
+.hot-collections{
+    padding: 128px 0;
+    background: #F4F5F6;
+}
+.hot-collections__title{
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 80px;
+}
+.hot-collections__cards{
+    display: flex;
+    gap: 32px;
+}
+.hot-collections__card__main_img{
+    background: #E4D7CF;
+    border-radius: 8px;
+    width: 352px;
+}
+.hot-collections__card__stack{
+    display: flex;
+    gap: 8px;
+}
+.hot-collections__card__stack_img{
+    background: #E4D7CF;
+    border-radius: 8px;
+}
+.hot-collections__cards_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hot-collections__cards_footer_user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.hot-collections__card__info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    margin-top: 16px;
+}
+.hot-collections__cards_footer_wiev{
+    border: 2px solid #E6E8EC;
+    border-radius: 4px;
+    padding: 8px 8px 6px;
+}

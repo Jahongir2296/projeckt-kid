@@ -1,0 +1,39 @@
+.crypter{
+    background: #FCFCFD;
+    padding: 80px 0;
+
+}
+.crypter-content{
+    display: flex;
+}
+.crypter-content_left{
+    margin-top: 176px;
+}
+.crypter-contnet__info{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #777E91;
+}
+.crypter-contnet__title{
+    font-size: 64px;
+    line-height: 100%;
+    width: 545px
+}
+.crypter-contnet__text__secondary{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777E91;
+    margin-top: 20px;
+}
+.crypter-content__btns{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}

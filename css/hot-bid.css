@@ -1,0 +1,127 @@
+.hot-bid{
+    padding: 136px 0 128px;
+}
+.hot-bid__top{
+    margin-bottom: 64px;
+}
+.hot-bid-content{}
+.hot-bid-card{
+    width: 256px;
+    position: relative;
+    transition: .35s;
+}
+.hot-bid-card__img{
+    border-radius: 16px;
+}
+.hot-bid-card__info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.hot-bid-card__name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.hot-bid-card__wievs{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.hot-bid-card__line{
+    width: 256px;
+    height: 1px;
+    background: #E6E8EC;
+    border-radius: 1px;
+    margin-top: 12px;
+}
+.hot-bid-card__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.hot-bid-card__footer__price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    /*line-height: 167%;*/
+}
+.hot-bid-card__footer__text_secondary{
+    color: #777E91;
+
+}
+.hot-bid__footer_left{
+    display: flex;
+    gap: 5px;
+}
+.swiper2 {
+    width: 1120px;
+    height: 449px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+
+}
+.hot-bid__swiper{
+    display: flex;
+    gap: 32px;
+}
+.hot-bid-card__hover{
+    position: absolute;
+    width: 256px;
+    background: #23262F;
+    padding: 11px 8px 16px;
+    border-radius: 16px ;
+    text-align: center;
+    display: none;
+}
+
+.hot-bid-card__hover_top{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.hot-bid-card__purchasing__btn{
+    background: #45B36B;
+    border-radius: 4px;
+    padding: 8px 8px 6px ;
+    color: white;
+    border: none;
+}
+
+
+.hot-bid-card__purchasing__btn:hover{
+    background: #45B36B;
+    border: none;
+}
+.hot-bid-card__bid__btn{
+    background: #3772FF;
+    color: white;
+    border: none;
+    padding: 12px 44px 12px 16px;
+}
+.hot-bid-card__liked__btn{
+    padding: 6.85px 6.85px;
+    background: #FCFCFD;
+    border: none;
+}
+.hot-bid-card__liked__btn:hover{
+    background: #FCFCFD;
+    border: none;
+}
+.hot-bid-card:hover .hot-bid-card__hover{
+    display: block;
+    transition: .35s;
+}
+.hot-bid-card__bid__btn span{
+    margin-left: 12px;
+}
+
+

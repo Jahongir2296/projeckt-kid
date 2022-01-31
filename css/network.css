@@ -1,0 +1,92 @@
+.network{
+padding-top: 128px;
+}
+.network-content{
+    display: flex;
+    gap: 128px;
+    padding: 128px 0 132px ;
+
+}
+.network-creator{
+    display: flex;
+
+    gap: 33px;
+}
+.network-creator__card{
+    display: flex;
+    gap: 8px;
+}
+.network-creator__rol{
+    font-size: 12px;
+    line-height: 167%;
+    color: #777E91;
+}
+.network-content__title{
+    font-size: 64px;
+    line-height: 100%;
+    max-width: 352px;
+}
+.network-creator{
+    margin-top: 20px;
+}
+.big-card__aution{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 28px;
+}
+
+.bid-card{
+    padding: 32px 65px;
+    text-align: center;
+    border: 2px solid #E6E8EC;
+    box-sizing: border-box;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 24px;
+    margin: 40px 0 32px;
+}
+.bid-card__eth{
+    font-size: 48px;
+    line-height: 110%;
+    margin-top: 5px;
+}
+.big-card__sum{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: #777E91;
+}
+.auction-ending{
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    margin-top: 8px;
+}
+.ending__time{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+}
+.ending__tine__value{
+    color: #777E91;
+    font-size: 16px;
+    line-height: 150%;
+}
+.network__btn{
+    padding: 16px 133.5px;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 8px;
+}
+.network__arrows{
+    display: flex;
+    margin-top: 40px;
+}
+.natwork__arrow__btn{
+    border: 2px solid #fff;
+
+}
+.natwork__arrow__btn:hover{
+    border: 2px solid #E6E8EC;
+    background: inherit;
+}

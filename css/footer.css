@@ -1,0 +1,107 @@
+.footer{
+    padding: 80px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-logo{
+    margin-bottom: 32px;
+    margin-top: -8px;
+}
+.footer-menu__title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+.footer-content__main__text_left{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 133%;
+    max-width: 256px;
+}
+.footer-content__menu_item{
+    color: #777E91;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 114%;
+}
+.footer-content__main__text_right{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 171%;
+    width: 352px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-input{
+    position: relative;
+}
+.footer-input__email{
+    margin-top: 24px;
+    border: 2px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 90px;
+    padding: 14px 100px 14px 16px;
+    outline: none;
+}
+.footer-input_btn{
+    position: absolute;
+    transform: translate(-46px, 32px);
+}
+.footer__line{
+    margin: 48px 0 32px;
+    background: #E6E8EC;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text_left{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 167%;
+    color: #777E91;
+
+}
+.footer_bottom_right{
+    display: flex;
+    gap: 16px;
+}
+.footer__text_right{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height:167%;
+    color: #23262F;
+}
+.footer-accept__btn{
+    border: none;
+    padding: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height:167%;
+    color: #3772FF;
+}
+.footer-accept__btn:hover{
+    color:  #3772FF;
+    border: none;
+    background: #fff;
+}
